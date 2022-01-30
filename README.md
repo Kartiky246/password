@@ -1,8 +1,19 @@
-# Password strength evaluator
- The project involves making of a ML model to predict the strength of a password. The model will predict any input string into 4 class:-
- 1) Very weak, 2) weak , 3) Strong, 4) Very strong
- The below dataset is taken from kaggle to train this model: -
- https://www.kaggle.com/bhavikbb/password-strength-classifier-dataset
- 
- The model is then deployed to a flask web app using AWS ec2 instance, url for the web app is -
- 
+# Password-Strength-Evaluator-using-Machine-Learning
+My TE Seminar mini project
+
+* This is my third year mini project.
+* Flask (Python web development framework) used for webpages.
+* SVM (Support Vector Machines) used for training and classification purposes.
+* Self-generated data set of 50000 instances
+
+Steps:
+1. First make sure you have flask installed, if not enter the following command in terminal:
+`pip install Flask`.
+2. Next, you need `scikit-learn`, which is a data mining tool in Python. Install it by typing:
+`pip install -U scikit-learn`. 
+3. After installing flask, extract the contents in a folder and then run the `__init__.py` file.
+4.  Server runs at `localhost:5000`, type this address in the browser and see the SVM in action.
+
+![GUI for this Project](Passwrd.png "GUI For this project")
+
+![Working of Password Strength Evaluator](Password.png "In Action")
